@@ -10,7 +10,7 @@ load_dotenv()
 
 app = Flask(__name__)
 app.secret_key = '122333'  
-
+#AADITESH WAS HERE
 # Set up MongoDB connection
 client = MongoClient(os.getenv("MONGODB_URI"))
 db = client['todo']
